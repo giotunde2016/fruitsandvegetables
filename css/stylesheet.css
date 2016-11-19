@@ -1,0 +1,118 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    borders: 50px;
+    font-size: 20px;
+    overflow: hidden;
+    background-color: orange;
+}
+
+li {
+    float: left;
+}
+
+li  a {
+    display: block;
+    color: white;
+    font-size: large
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#5dc66b;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 140px;
+    text-decoration: none;
+    border:10px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5dc66b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 128px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+ 
+}
+
+.dropdown-content a:hover {background-color: #93ea9f}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  /*up for navigation bar*/  
+}
+.sidebar{width: 25%;
+margin-top:100px;
+height: 675px;
+background-color: grey;
+float:left;
+text-align: center;
+font-size:larger;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+/* this is fruits or vigi explanation*/
+
+.footer {
+    
+}
+
+.right {
+        float:left;
+    width: 70%;
+    height:675px;
+    margin-top: 100px;
+    margin-left:45px;
+    border-color: red 5px;
+    }   
+/* this is the principals images*/
+
+.footer {
+    margin-top: 800px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center
+}
+
+/* this is copyright side*/
+body{
+    background-color: lightblue;
+}
+
+/* nice background*/
+    
