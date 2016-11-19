@@ -12,6 +12,7 @@ ul {
 
 li {
     float: left;
+    border-right:2px white;
 }
 
 li  a {
@@ -25,6 +26,7 @@ li  a {
 
 li a:hover {
     background-color:#5dc66b;
+    
 }
 
 
